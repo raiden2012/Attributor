@@ -15,6 +15,7 @@
 		7E87B0F41C37C186001B68BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E87B0F21C37C186001B68BC /* LaunchScreen.storyboard */; };
 		7E87B0FF1C37C186001B68BC /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E87B0FE1C37C186001B68BC /* AttributorTests.m */; };
 		7E87B10A1C37C186001B68BC /* AttributorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E87B1091C37C186001B68BC /* AttributorUITests.m */; };
+		7E87B1191C37EC33001B68BC /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E87B1181C37EC33001B68BC /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7E87B1051C37C186001B68BC /* AttributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E87B1091C37C186001B68BC /* AttributorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorUITests.m; sourceTree = "<group>"; };
 		7E87B10B1C37C186001B68BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E87B1171C37EC33001B68BC /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		7E87B1181C37EC33001B68BC /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				7E87B0EA1C37C186001B68BC /* ViewController.h */,
 				7E87B0EB1C37C186001B68BC /* ViewController.m */,
 				7E87B0ED1C37C186001B68BC /* Main.storyboard */,
+				7E87B1171C37EC33001B68BC /* TextStatsViewController.h */,
+				7E87B1181C37EC33001B68BC /* TextStatsViewController.m */,
 				7E87B0F01C37C186001B68BC /* Assets.xcassets */,
 				7E87B0F21C37C186001B68BC /* LaunchScreen.storyboard */,
 				7E87B0F51C37C186001B68BC /* Info.plist */,
@@ -276,6 +281,7 @@
 				7E87B0EC1C37C186001B68BC /* ViewController.m in Sources */,
 				7E87B0E91C37C186001B68BC /* AppDelegate.m in Sources */,
 				7E87B0E61C37C186001B68BC /* main.m in Sources */,
+				7E87B1191C37EC33001B68BC /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
